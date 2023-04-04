@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.warna1 {
+  background-color: #2c3333;
+}
+
+.warna2 {
+  background-color: #2e4f4f;
+}
+
+.warna3 {
+  background-color: #0e8388;
+}
+
+.warna4 {
+  background-color: #cbe4de;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: white;
+}
+
+.no-decoration:hover {
+  color: #c8b6a6;
+  transition: 0.5s;
+}
+
+.banner {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/banner.jpg");
+}
+
+.highlighted-kategori {
+  height: 250px;
+}
+
+.kategori-camera {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/camera.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori-sepatu {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/sepatu.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori-baju {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/baju.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.text-harga {
+  font-size: 20px;
+}
+
+.img-box {
+  height: 250px;
+}
+
+.img-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content-subscribe {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.banner-produk {
+  height: 40vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/banner.jpg");
+  background-position: 50% 70%;
+}
+
+.produk-terkait-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
